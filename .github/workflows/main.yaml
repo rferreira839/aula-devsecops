@@ -1,0 +1,28 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+on:
+  # Triggers the workflow on push or pull request events but only for the $default-branch branch
+  push:
+    branches: [ main ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  # workflow_dispatch:
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      # Runs a single command using the runners shell
+      - name: Build
+        run: echo "Buil"!
+        
+      - name: Teste
+        run: echo "teste"!
+        
+      - name: Deploy
+        run: echo "Deploy"
