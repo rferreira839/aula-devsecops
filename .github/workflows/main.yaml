@@ -4,7 +4,7 @@ name: CI
 
 on:
   schedule:
-    - cron: '32 23 * * *'
+    - cron: '36 23 * * *'
   push:
     branches: [ main ]
 
